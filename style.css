@@ -3,15 +3,19 @@
     padding: 0px;
     box-sizing: border-box;
 }
+:root{
+    --container-color: #c2c2c2;
+    --background-color: #c2c2c2;
+}
 @media (min-width: 320px){
     body{
-        background-color: #8080805b;
+        background-color: var(--background-color);
     }
     .container{
         margin: 0px auto;
         height: 528px;
         width: 320px;
-        background-color: #8080805b;
+        background-color: var(--container-color);
     }
     #header{
         padding: 20px 0px;
@@ -54,7 +58,7 @@
     footer{
         margin: 0px auto;
         height: 40px;
-        width: 320px;
+        width: auto;
         border-radius: 0px 0px 10px 10px;
         background-color: #1a1a1a;
     } 
@@ -70,13 +74,13 @@
 }
 @media (min-width: 375px){
     body{
-        background-color: #8080805b;
+        background-color: var(--background-color);
     }
     .container{
         margin: 0px auto;
         height: 528px;
         width: 375px;
-        background-color: #8080805b;
+        background-color: var(--container-color);
     }
     #header{
         padding: 25px 0px;
@@ -119,7 +123,7 @@
     footer{
         margin: 0px auto;
         height: 40px;
-        width: 375px;
+        width: auto;
         border-radius: 0px 0px 10px 10px;
         background-color: #1a1a1a;
     } 
@@ -135,13 +139,13 @@
 }
 @media (min-width: 425px){
     body{
-        background-color: #8080805b;
+        background-color: var(--background-color);
     }
     .container{
         margin: 0px auto;
         height: 528px;
         width: 425px;
-        background-color: #8080805b;
+        background-color: var(--container-color);
     }
     #header{
         padding: 25px 0px;
@@ -184,7 +188,7 @@
     footer{
         margin: 0px auto;
         height: 40px;
-        width: 425px;
+        width: auto;
         border-radius: 0px 0px 10px 10px;
         background-color: #1a1a1a;
     } 
